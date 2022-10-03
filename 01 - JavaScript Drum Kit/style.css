@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url('./background.jpg') bottom center;
+  background: url('./background.jpg') center center;
   background-size: cover;
 }
 
@@ -10,11 +10,20 @@ body,html {
   font-family: sans-serif;
 }
 
+p {
+  color: white;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
-  align-items: center;
+  min-height: calc(100vh - 50px);
+  align-items: flex-end;
   justify-content: center;
 }
 
